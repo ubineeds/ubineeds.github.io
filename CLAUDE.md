@@ -46,3 +46,4 @@ assets/js/{home,dev,design}.js        # 페이지별 기능
 ## SEO / 검색엔진 등록
 - `robots.txt`, `sitemap.xml`은 루트에 있다. 페이지를 추가·삭제하면 `sitemap.xml`의 `<url>` 목록도 함께 갱신한다.
 - 네이버 서치어드바이저 소유 확인용 `<meta name="naver-site-verification">` 태그는 `index.html` `<head>`에 둔다. 삭제하면 소유 확인이 풀리므로 head를 정리할 때 유지할 것.
+- 구글 서치 콘솔은 `https://ubineeds.com/` URL 접두어 속성이며 GA4 태그(`G-EDT6WYXFVM`)로 소유 확인되어 있다. GA 스니펫을 `index.html`에서 제거하면 서치 콘솔 소유 확인도 풀린다.
